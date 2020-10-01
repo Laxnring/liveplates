@@ -1,7 +1,11 @@
+# Laxnring
+
 from openalpr import Alpr
 from argparse import ArgumentParser
 
 parser = ArgumentParser(description='OpenALPR Python Test Program')
+
+# Add arguments for openalpr command line tool
 
 parser.add_argument("-c", "--country", dest="country", action="store", default="us",
                   help="License plate Country" )
